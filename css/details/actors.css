@@ -1,0 +1,93 @@
+.actors{
+
+    margin: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 2rem;
+    font-family: 'SF Pro Light';
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #707070;
+
+}
+
+.tittle-actors{
+
+}
+.actor-wrapper{
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.actor{
+    background-color: #151F2E;
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(120px,1fr));
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 0.5rem;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+.img-actor__img{
+    width: 100%;
+}
+.bio-actor{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.name-actor{
+ font-weight: normal;
+}
+.role-actor{
+  font-weight: lighter;
+    color: #999999;
+}
+.text-actors{
+    color: #FFBB00;
+    cursor: pointer;
+
+
+}
+@media screen and (max-width: 1100px){
+    .actor{
+
+        flex-basis: 25%;
+    }
+}
+@media screen and (max-width: 734px){
+    .actor-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-right: 0;
+    }
+    .actor{
+        gap: 1rem;
+        flex-basis: 45%;
+        height: fit-content;
+        padding-bottom: 2rem;
+
+    }
+    .img-actor{
+
+        width: 100%;
+    }
+}

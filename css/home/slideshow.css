@@ -1,0 +1,48 @@
+.slideshow{
+    height: 50vh;
+    grid-row: 2/span 3;
+    background-image: url("../../images/Mask.png");
+   
+    background-position: center;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 1rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.slideshow-content{
+    width: 90%;
+    border-radius: 5rem;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.658);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2rem;
+    line-height: 2rem;
+}
+.slideshow-content-bottom__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-top: 1rem;
+    font-family: 'SF Pro Light' ;
+
+}
+.slideshow-deetails{
+    font-family: 'SF Pro Light';
+    font-size: 12px;
+}
+.slideshow-tittle{
+    font-family: 'SF Pro Light' ;
+    font-size: 27px;
+}
+.slideshow-time{
+    font-family: 'SF Pro Light' ;
+    
+}

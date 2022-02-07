@@ -1,0 +1,63 @@
+.header{
+    background-color: #151F2E;
+    grid-row: 1/2;
+    height: min-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+
+}
+.header-center{
+    margin-left: 3rem;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+.search-text{
+    position: absolute;
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 100rem;
+    background-color:#2B3442;
+    font-family: 'SF Pro Light';
+
+}
+.icon-search{
+    position: absolute;
+    right: 0.1rem;
+    color:#8E919E ;
+
+}
+.text-username{
+    font-family: 'SF Pro Light';
+}
+.plus,
+.bell,
+.arrow{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.plus:hover,
+.bell:hover,
+.arrow:hover{
+    color: #FFBB00;
+}
+@media only  screen and (max-width:768px) {
+    .header-center{
+        display: none;
+    }
+}
